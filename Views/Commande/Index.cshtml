@@ -1,0 +1,35 @@
+﻿@model IEnumerable<IOT_Shopping.Models.Commande>
+
+@{
+    ViewData["Title"] = "Liste des Commandes";
+}
+
+<h2 class="liste-commande">Liste des Commandes</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Produit</th>
+            <th>Quantité</th>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Adresse</th>
+            <th>Téléphone</th>
+            <th>Date de naissance</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var commande in Model)
+        {
+            <tr>
+                <td>@commande.Produit.Nom</td>
+                <td>@commande.Quantite</td>
+                <td>@commande.NomClient</td>
+                <td>@commande.PrenomClient</td>
+                <td>@commande.AdresseClient</td>
+                <td>@commande.TelephoneClient</td>
+                <td>@commande.DateNaissanceClient.ToShortDateString()</td>
+            </tr>
+        }
+    </tbody>
+</table>

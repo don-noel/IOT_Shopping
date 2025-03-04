@@ -1,0 +1,220 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{639DD851-050A-4638-A127-189CD6294AEE}|IOT_Shopping.csproj|d:\\etape 4\\projet\\serveur_ua2\\noel_shop\\iot_shopping\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{639DD851-050A-4638-A127-189CD6294AEE}|IOT_Shopping.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639DD851-050A-4638-A127-189CD6294AEE}|IOT_Shopping.csproj|d:\\etape 4\\projet\\serveur_ua2\\noel_shop\\iot_shopping\\controllers\\commandecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639DD851-050A-4638-A127-189CD6294AEE}|IOT_Shopping.csproj|solutionrelative:controllers\\commandecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639DD851-050A-4638-A127-189CD6294AEE}|IOT_Shopping.csproj|d:\\etape 4\\projet\\serveur_ua2\\noel_shop\\iot_shopping\\views\\commande\\confirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{639DD851-050A-4638-A127-189CD6294AEE}|IOT_Shopping.csproj|solutionrelative:views\\commande\\confirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639DD851-050A-4638-A127-189CD6294AEE}|IOT_Shopping.csproj|d:\\etape 4\\projet\\serveur_ua2\\noel_shop\\iot_shopping\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{639DD851-050A-4638-A127-189CD6294AEE}|IOT_Shopping.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639DD851-050A-4638-A127-189CD6294AEE}|IOT_Shopping.csproj|d:\\etape 4\\projet\\serveur_ua2\\noel_shop\\iot_shopping\\views\\produit\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{639DD851-050A-4638-A127-189CD6294AEE}|IOT_Shopping.csproj|solutionrelative:views\\produit\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639DD851-050A-4638-A127-189CD6294AEE}|IOT_Shopping.csproj|d:\\etape 4\\projet\\serveur_ua2\\noel_shop\\iot_shopping\\models\\produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639DD851-050A-4638-A127-189CD6294AEE}|IOT_Shopping.csproj|solutionrelative:models\\produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639DD851-050A-4638-A127-189CD6294AEE}|IOT_Shopping.csproj|d:\\etape 4\\projet\\serveur_ua2\\noel_shop\\iot_shopping\\models\\commande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639DD851-050A-4638-A127-189CD6294AEE}|IOT_Shopping.csproj|solutionrelative:models\\commande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639DD851-050A-4638-A127-189CD6294AEE}|IOT_Shopping.csproj|d:\\etape 4\\projet\\serveur_ua2\\noel_shop\\iot_shopping\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639DD851-050A-4638-A127-189CD6294AEE}|IOT_Shopping.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639DD851-050A-4638-A127-189CD6294AEE}|IOT_Shopping.csproj|d:\\etape 4\\projet\\serveur_ua2\\noel_shop\\iot_shopping\\views\\commande\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{639DD851-050A-4638-A127-189CD6294AEE}|IOT_Shopping.csproj|solutionrelative:views\\commande\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639DD851-050A-4638-A127-189CD6294AEE}|IOT_Shopping.csproj|d:\\etape 4\\projet\\serveur_ua2\\noel_shop\\iot_shopping\\views\\produit\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{639DD851-050A-4638-A127-189CD6294AEE}|IOT_Shopping.csproj|solutionrelative:views\\produit\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639DD851-050A-4638-A127-189CD6294AEE}|IOT_Shopping.csproj|d:\\etape 4\\projet\\serveur_ua2\\noel_shop\\iot_shopping\\views\\commande\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{639DD851-050A-4638-A127-189CD6294AEE}|IOT_Shopping.csproj|solutionrelative:views\\commande\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 298,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T03:21:16.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Confirmation.cshtml",
+              "DocumentMoniker": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\Views\\Commande\\Confirmation.cshtml",
+              "RelativeDocumentMoniker": "Views\\Commande\\Confirmation.cshtml",
+              "ToolTip": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\Views\\Commande\\Confirmation.cshtml",
+              "RelativeToolTip": "Views\\Commande\\Confirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T17:49:36.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T17:54:24.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Produit.cs",
+              "DocumentMoniker": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\Models\\Produit.cs",
+              "RelativeDocumentMoniker": "Models\\Produit.cs",
+              "ToolTip": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\Models\\Produit.cs",
+              "RelativeToolTip": "Models\\Produit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T01:40:28.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\Views\\Produit\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Produit\\Create.cshtml",
+              "ToolTip": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\Views\\Produit\\Create.cshtml",
+              "RelativeToolTip": "Views\\Produit\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T18:15:02.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\Views\\Commande\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Commande\\Index.cshtml",
+              "ToolTip": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\Views\\Commande\\Index.cshtml",
+              "RelativeToolTip": "Views\\Commande\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T19:46:20.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\Views\\Commande\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Commande\\Create.cshtml",
+              "ToolTip": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\Views\\Commande\\Create.cshtml",
+              "RelativeToolTip": "Views\\Commande\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T17:49:02.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\Views\\Produit\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Produit\\Edit.cshtml",
+              "ToolTip": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\Views\\Produit\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Produit\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T18:15:31.497Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 302,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CommandeController.cs",
+              "DocumentMoniker": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\Controllers\\CommandeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CommandeController.cs",
+              "ToolTip": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\Controllers\\CommandeController.cs",
+              "RelativeToolTip": "Controllers\\CommandeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T23:29:02.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Commande.cs",
+              "DocumentMoniker": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\Models\\Commande.cs",
+              "RelativeDocumentMoniker": "Models\\Commande.cs",
+              "ToolTip": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\Models\\Commande.cs",
+              "RelativeToolTip": "Models\\Commande.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T01:41:07.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T03:20:41.888Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

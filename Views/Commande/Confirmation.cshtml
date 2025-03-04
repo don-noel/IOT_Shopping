@@ -1,0 +1,29 @@
+﻿@model IOT_Shopping.Models.Commande
+
+@{
+    ViewData["Title"] = "Confirmation de commande";
+}
+
+<h2 class="confirmation-commande">Confirmation de la commande</h2>
+
+<!-- Vérification que Model n'est pas null -->
+@if (Model != null)
+{
+    <p><strong></strong> IOT_Shopping vous remercie de votre commande! Elle est en cours de traitement.</p>
+    <p><strong>Commande N° :</strong> @Model.Id</p>
+    <p><strong>Produit :</strong> @(Model.Produit != null ? Model.Produit.Nom : "Produit inconnu")</p>
+    <p><strong>Quantité :</strong> @Model.Quantite</p>
+    <p><strong>Nom :</strong> @Model.NomClient</p>
+    <p><strong>Prénom :</strong> @Model.PrenomClient</p>
+    <p><strong>Adresse :</strong> @Model.AdresseClient</p>
+    <p><strong>Téléphone :</strong> @Model.TelephoneClient</p>
+    <p><strong>Date de naissance :</strong> @Model.DateNaissanceClient.ToShortDateString()</p>
+    <p><strong>Date d'achat :</strong> @Model.DateCommande</p>
+
+    <a href="@Url.Action("Index", "Home")" class="btn btn-primary retour-accueil">Retour à l'accueil</a>
+}
+
+else
+{
+    <p class="text-danger">La commande est introuvable.</p>
+}

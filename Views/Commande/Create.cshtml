@@ -1,0 +1,72 @@
+﻿<!-- Définition du modèle -->
+@model IOT_Shopping.Models.Commande
+
+<!-- Définition du titre de la page -->
+@{
+    ViewData["Title"] = "Passer une commande";
+}
+
+<h2 class="passe-commande">Passer une commande</h2>
+
+<!-- Affichage des erreurs de validation -->
+@if (!ViewData.ModelState.IsValid && ViewData.ModelState.Values.Any(v => v.Errors.Any()))
+{
+    <div class="alert alert-danger">
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+<!-- Début du formulaire -->
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label for="ProduitId">Produit</label>
+        <select asp-for="ProduitId" class="form-control" asp-items="@(new SelectList(ViewBag.Produits, "Id", "Nom"))">
+            <option value="0">-- Sélectionnez un produit --</option>
+        </select>
+        <span asp-validation-for="ProduitId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Quantite"></label>
+        <input asp-for="Quantite" class="form-control" required />
+        <span asp-validation-for="Quantite" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NomClient">Nom du client</label>
+        <input asp-for="NomClient" class="form-control" required />
+        <span asp-validation-for="NomClient" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PrenomClient">Prenom du Client</label>
+        <input asp-for="PrenomClient" class="form-control" required />
+        <span asp-validation-for="PrenomClient" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="AdresseClient">Adresse du Client</label>
+        <input asp-for="AdresseClient" class="form-control" required />
+        <span asp-validation-for="AdresseClient" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TelephoneClient">Telephone du Client</label>
+        <input asp-for="TelephoneClient" class="form-control" required />
+        <span asp-validation-for="TelephoneClient" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="DateNaissanceClient">Date de Naissance du Client</label>
+        <input asp-for="DateNaissanceClient" class="form-control" type="date" required />
+        <span asp-validation-for="DateNaissanceClient" class="text-danger"></span>
+    </div>
+
+    <br />
+
+    <!-- Bouton de validation -->
+    <button type="submit" class="btn btn-primary valide-commande">Valider la commande</button>
+</form>

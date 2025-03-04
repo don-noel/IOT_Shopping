@@ -1,0 +1,164 @@
+﻿@{
+    ViewData["Title"] = "Accueil";
+}
+
+<!-- Carrousel d'images -->
+<div class="carousel-container">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <!-- Première image avec texte -->
+            <div class="carousel-item active">
+                <img src="~/images/1.jpg" alt="Image 1">
+                <div class="carousel-caption gauche-car fade-in">
+                    <h2>Explorez les Meilleures Technologies IoT</h2>
+                    <p>Découvrez nos produits innovants pour une maison et une entreprise connectées.</p>
+                </div>
+            </div>
+
+            <!-- Deuxième image avec texte -->
+            <div class="carousel-item">
+                <img src="~/images/5.jpg" alt="Image 2">
+                <div class="carousel-caption fade-in">
+                    <h2>Des Objets Connectés à Portée de Main</h2>
+                    <p>Optimisez votre quotidien avec nos solutions intelligentes et performantes.</p>
+                </div>
+            </div>
+
+            <!-- Troisième image avec texte -->
+            <div class="carousel-item">
+                <img src="~/images/2.jpg" alt="Image 3">
+                <div class="carousel-caption gauche-car fade-in">
+                    <h2>La boutique IOT_Shopping</h2>
+                    <p>Venez domotiser votre domicile avec nos meilleurs objets en vente.</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+</div>
+
+
+<!-- Section des produits populaires -->
+<div class="container product-section">
+    <h2 class="section-title">Produits en vente</h2>
+
+    <!-- Onglets de filtrage des catégories -->
+    <div class="container category-filter">
+        <ul class="nav nav-pills justify-content-center">
+            <li class="nav-item">
+                <button class="nav-link active" onclick="filterProducts('all')">Tous</button>
+            </li>
+            @foreach (var categorie in ViewBag.Categories)
+            {
+                <li class="nav-item">
+                    <button class="nav-link" onclick="filterProducts('@categorie')">@categorie</button>
+                </li>
+            }
+        </ul>
+    </div>
+
+    <!-- Liste des produits -->
+    <div class="row" id="product-list">
+        @foreach (var produit in ViewBag.Produits)
+        {
+            <div class="col-md-3 col-sm-6 product-card" data-category="@produit.Categorie">
+                <div class="card">
+                    <img src="~/images/@produit.Image" class="product-img clickable-img"
+                         alt="@produit.Nom" data-index="@produit.Id">
+                    <div class="product-details">
+                        <h5 class="product-title">@produit.Nom</h5>
+                        <p class="product-price">@produit.Prix $</p>
+                        <a href="#" class="btn btn-primary">Voir le produit</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<!-- Lightbox pour affichage des images en grand -->
+<div id="lightbox" class="lightbox">
+    <div class="lightbox-content">
+        <img id="lightbox-img" src="" class="lightbox-img">
+        <button class="lightbox-prev">&#10094;</button>
+        <button class="lightbox-next">&#10095;</button>
+    </div>
+</div>
+
+<!-- SCRIPTS -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        let carousel = document.getElementById("carouselExample");
+        let images = document.querySelectorAll(".clickable-img");
+        let lightbox = document.getElementById("lightbox");
+        let lightboxImg = document.getElementById("lightbox-img");
+        let currentIndex = 0;
+        let imgList = [];
+
+        carousel.addEventListener("slid.bs.carousel", function () {
+            let captions = document.querySelectorAll(".carousel-caption");
+            captions.forEach(caption => caption.classList.remove("fade-in-active"));
+
+            let activeCaption = document.querySelector(".carousel-item.active .carousel-caption");
+            if (activeCaption) {
+                activeCaption.classList.add("fade-in-active");
+            }
+        });
+
+        images.forEach((img, index) => {
+            imgList.push(img.getAttribute("src"));
+
+            img.addEventListener("click", function () {
+                currentIndex = index;
+                lightboxImg.src = imgList[currentIndex];
+                lightbox.style.display = "flex";
+            });
+        });
+
+        document.querySelector(".lightbox-prev").addEventListener("click", function () {
+            currentIndex = (currentIndex > 0) ? currentIndex - 1 : imgList.length - 1;
+            lightboxImg.src = imgList[currentIndex];
+        });
+
+        document.querySelector(".lightbox-next").addEventListener("click", function () {
+            currentIndex = (currentIndex < imgList.length - 1) ? currentIndex + 1 : 0;
+            lightboxImg.src = imgList[currentIndex];
+        });
+
+        lightbox.addEventListener("click", function (e) {
+            if (e.target === lightbox) {
+                lightbox.style.display = "none";
+            }
+        });
+    });
+
+    // Fonction de filtrage des produits
+    function filterProducts(category) {
+        let products = document.querySelectorAll(".product-card");
+        products.forEach(product => {
+            let productCategory = product.getAttribute("data-category");
+
+            if (category === "all" || productCategory === category) {
+                product.style.display = "block";
+            } else {
+                product.style.display = "none";
+            }
+        });
+
+        // Mise à jour des boutons actifs
+        let buttons = document.querySelectorAll(".nav-link");
+        buttons.forEach(btn => btn.classList.remove("active"));
+        document.querySelector(`button[onclick="filterProducts('${category}')"]`).classList.add("active");
+    }
+</script>

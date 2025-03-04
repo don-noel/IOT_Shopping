@@ -1,0 +1,405 @@
+﻿/* Réinitialisation et Base */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Tempus Sans ITC', Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden; /* Supprime la barre de défilement horizontale */
+}
+
+/* Le contenu principal prend toute la hauteur */
+.container {
+    flex-grow: 1;
+}
+
+/* Navbar (Menu) */
+.navbar {
+    padding: 15px;
+    background-color: white !important;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.navbar-nav .btn {
+    color: white;
+    margin-left: 10px;
+}
+
+/* Correction définitive du Carrousel */
+.carousel-container {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw; /* Décale à gauche exactement 50% de la vue */
+    margin-right: -50vw; /* Décale à droite exactement 50% de la vue */
+    background-image: url("../images/5.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.carousel {
+    width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+    .carousel img {
+        width: 100%;
+        height: 450px; /* Hauteur fixe inchangée */
+        object-fit: cover;
+    }
+
+/* Produits Populaires */
+.product-section {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.product-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    text-align: center;
+    height: 100%;
+}
+
+    .product-card:hover {
+        transform: scale(1.05);
+    }
+
+.product-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Lightbox en plein écran */
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.lightbox-content {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.lightbox-img {
+    width: auto;
+    max-width: 90%;
+    max-height: 90vh;
+    display: block;
+    margin: auto;
+}
+
+/* Navigation entre les images */
+.lightbox-prev, .lightbox-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.lightbox-prev {
+    left: 20px;
+}
+
+.lightbox-next {
+    right: 20px;
+}
+
+    .lightbox-prev:hover, .lightbox-next:hover {
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+/* Style des images cliquables */
+.clickable-img {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+    .clickable-img:hover {
+        transform: scale(1.05);
+    }
+
+/* Ajustement du texte sur les images du carrousel */
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    right: 10%; /* Place le texte à droite */
+    left: auto; /* Supprime l'effet centré */
+    transform: translate(0, -50%); /* Ajuste la position verticale */
+    text-align: right; /* Aligne le texte à droite */
+    color: white;
+    /*background: rgba(0, 0, 0, 0.5);  Fond sombre pour lisibilité */
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 40%; /* Réduit la largeur pour éviter que ça prenne trop d’espace */
+}
+
+    .gauche-car {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        right: auto; 
+        transform: translate(0, -50%); /* Ajuste la position verticale */
+        text-align: right; /* Aligne le texte à droite */
+        color: white;
+        /*background: rgba(0, 0, 0, 0.5);  Fond sombre pour lisibilité */
+        padding: 15px;
+        border-radius: 8px;
+        max-width: 40%; /* Réduit la largeur pour éviter que ça prenne trop d’espace */
+    }
+
+.carousel-caption h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+    .carousel-caption p {
+        font-size: 18px;
+        margin: 0;
+    }
+
+/* Styles pour la navigation des catégories */
+.nav-pills .nav-link {
+    background-color: #f8f9fa;
+    color: #333;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+    .nav-pills .nav-link.active {
+        background-color: #007bff;
+        color: white;
+    }
+
+/* Ajustement des cartes produits */
+.product-card {
+    display: block;
+    transition: 0.3s;
+}
+
+.product-card-content {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+}
+
+.product-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Style du bloc Footer */
+.footer-custom {
+    background-color: #f1f1f1; /* Fond blanc */
+    padding: 40px 0;
+    color: #333;
+}
+
+    .footer-custom h5 {
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #333;
+    }
+
+    .footer-custom p {
+        font-size: 14px;
+        margin-bottom: 10px;
+        color: #555;
+    }
+
+    .footer-custom ul {
+        padding: 0;
+        list-style: none;
+    }
+
+        .footer-custom ul li {
+            margin-bottom: 5px;
+        }
+
+            .footer-custom ul li a {
+                text-decoration: none;
+                color: #333;
+                transition: color 0.3s ease;
+            }
+
+                .footer-custom ul li a:hover {
+                    color: #ffcc00;
+                }
+
+/* Alignement du bloc footer */
+.footer-bottom {
+    background-color: #f1f1f1; /* Fond gris clair */
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+}
+
+/* Ajustement des moyens de paiement */
+.footer-payment-icons {
+    display: flex;
+    gap: 10px;
+}
+
+    .footer-payment-icons img {
+        width: 50px;
+        height: auto;
+    }
+
+/* Footer */
+.footer-custom {
+    background-color: #f1f1f1; /* Fond gris clair */
+    padding: 40px 0;
+    color: #333;
+}
+
+/* Ajustement du footer pour qu'il prenne toute la largeur */
+.footer-bottom {
+    background-color: #f1f1f1; /* Fond légèrement gris */
+    padding: 15px 0;
+    width: 100vw; /* Prend toute la largeur du navigateur */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* Conteneur du bas du footer */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1355px; /* Assure une bonne largeur comme le reste du site */
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+}
+
+    /* Alignement du texte de copyright */
+    .footer-container .text-start {
+        font-size: 14px;
+        color: #555;
+    }
+
+/* Ajustement des moyens de paiement */
+.footer-payment-icons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+    .footer-payment-icons img {
+        width: 60px; /* Taille légèrement augmentée */
+        height: auto;
+        opacity: 0.8; /* Effet visuel plus agréable */
+        transition: opacity 0.3s ease;
+    }
+
+        .footer-payment-icons img:hover {
+            opacity: 1;
+        }
+
+/* Animation fade-in pour le texte du carrousel */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.carousel-caption {
+    opacity: 0; /* Cache initialement le texte */
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+}
+
+/* Lorsque le texte est actif, applique l'animation */
+.fade-in-active {
+    opacity: 1 !important;
+    animation: fadeInUp 0.8s ease-in-out;
+}
+
+/* Changer la couleur de fond des boutons de navigation */
+.navbar-nav .nav-link.btn-primary {
+    background-color: #0a436a; /* Remplace cette couleur par celle de ton choix */
+    border-color: #0a436a;
+}
+
+    .navbar-nav .nav-link.btn-primary:hover {
+        background-color: #217baa; /* Couleur plus foncée au survol */
+        border-color: #217baa;
+    }
+
+.product-details .btn-primary, .retour-accueil, .ajouter {
+    background-color: #0a436a; /* Remplace cette couleur par celle de ton choix */
+    border-color: #0a436a;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #062e48; /* Couleur différente pour l'actif */
+    font-weight: bold;
+}
+
+/* Code du header */
+.navbar {
+    background-color: #f1f1f1 !important; 
+}
+
+.produit, .commande, .valide-commande {
+    background-color: #0a436a;
+}
+
+.passe-commande, .liste-commande, .liste-produit, .confirmation-commande {
+    padding-top: 20px;
+}

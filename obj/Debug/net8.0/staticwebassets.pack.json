@@ -1,0 +1,413 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\IOT_Shopping.bundle.scp.css",
+      "PackagePath": "staticwebassets\\IOT_Shopping.8vugdlqh2x.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\0.webp",
+      "PackagePath": "staticwebassets\\images\\0.webp"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\25ff0ed673634c27986181c8aa24a340.jpg",
+      "PackagePath": "staticwebassets\\images\\25ff0ed673634c27986181c8aa24a340.jpg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\3.webp",
+      "PackagePath": "staticwebassets\\images\\3.webp"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\4.jpg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\5.jpg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\6.jpg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\7.jpg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\78_best_nba2.webp",
+      "PackagePath": "staticwebassets\\images\\78_best_nba2.webp"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\7dfaa298ffe100553c81b4ad55420dfd.jpeg",
+      "PackagePath": "staticwebassets\\images\\7dfaa298ffe100553c81b4ad55420dfd.jpeg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\8.jpg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\9.jpg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\Avidsen.webp",
+      "PackagePath": "staticwebassets\\images\\Avidsen.webp"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\Doflamingo-Wallpaper-Hd-70617.jpg",
+      "PackagePath": "staticwebassets\\images\\Doflamingo-Wallpaper-Hd-70617.jpg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\ESP32.webp",
+      "PackagePath": "staticwebassets\\images\\ESP32.webp"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\MV5BMDBkMGY5MzMtZWVjYS00NjIzLTg3NmQtM2JkMjZhYzM3MWRhXkEyXkFqcGdeQXVyNzgxMzc3OTc@._V1_.jpg",
+      "PackagePath": "staticwebassets\\images\\MV5BMDBkMGY5MzMtZWVjYS00NjIzLTg3NmQtM2JkMjZhYzM3MWRhXkEyXkFqcGdeQXVyNzgxMzc3OTc@._V1_.jpg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\Montre connectée.png",
+      "PackagePath": "staticwebassets\\images\\Montre connectée.png"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\Schneider Electric Wiser Air Smart.jpg",
+      "PackagePath": "staticwebassets\\images\\Schneider Electric Wiser Air Smart.jpg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\WhatsApp Image 2024-04-10 à 20.38.49_38ed08ad.jpg",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Image 2024-04-10 à 20.38.49_38ed08ad.jpg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\ampoules connectés.jpg",
+      "PackagePath": "staticwebassets\\images\\ampoules connectés.jpg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\bb.jpg",
+      "PackagePath": "staticwebassets\\images\\bb.jpg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\camera connectée.jpg",
+      "PackagePath": "staticwebassets\\images\\camera connectée.jpg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\capteur de courant.jpg",
+      "PackagePath": "staticwebassets\\images\\capteur de courant.jpg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\capteur de pression.webp",
+      "PackagePath": "staticwebassets\\images\\capteur de pression.webp"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\carte pic 16f877.jpg",
+      "PackagePath": "staticwebassets\\images\\carte pic 16f877.jpg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\carte raspberry.jpg",
+      "PackagePath": "staticwebassets\\images\\carte raspberry.jpg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\le Google Nest Hub.jpeg",
+      "PackagePath": "staticwebassets\\images\\le Google Nest Hub.jpeg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\mastercard.jpg",
+      "PackagePath": "staticwebassets\\images\\mastercard.jpg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\mastercard.png",
+      "PackagePath": "staticwebassets\\images\\mastercard.png"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\moi.jpg",
+      "PackagePath": "staticwebassets\\images\\moi.jpg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\paypal.png",
+      "PackagePath": "staticwebassets\\images\\paypal.png"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\pngtree-d-rendering-of-iot-devices-and-network-connections-in-the-internet-image_3885214.jpg",
+      "PackagePath": "staticwebassets\\images\\pngtree-d-rendering-of-iot-devices-and-network-connections-in-the-internet-image_3885214.jpg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\thermostat ontelligent.jpg",
+      "PackagePath": "staticwebassets\\images\\thermostat ontelligent.jpg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\visa.webp",
+      "PackagePath": "staticwebassets\\images\\visa.webp"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\images\\zoro_king_of_hell_by_shiredora_dfzpeke-fullview.jpg",
+      "PackagePath": "staticwebassets\\images\\zoro_king_of_hell_by_shiredora_dfzpeke-fullview.jpg"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Etape 4\\Projet\\Serveur_UA2\\Noel_Shop\\IOT_Shopping\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.IOT_Shopping.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.IOT_Shopping.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.IOT_Shopping.props",
+      "PackagePath": "build\\IOT_Shopping.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.IOT_Shopping.props",
+      "PackagePath": "buildMultiTargeting\\IOT_Shopping.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.IOT_Shopping.props",
+      "PackagePath": "buildTransitive\\IOT_Shopping.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
