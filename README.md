@@ -5,18 +5,18 @@
 ---
 
 ## 📌 Fonctionnalités :
-- ✅ **Gestion des produits (ajout, modification, suppression)** 
-- ✅ **Commandes**  
-- ✅ **Interface utilisateur responsive (Bootstrap)** 
-- ✅ **Base de données avec Entity Framework**  
+-  **Gestion des produits (ajout, modification, suppression)** 
+-  **Commandes**  
+-  **Interface utilisateur responsive (Bootstrap)** 
+-  **Base de données avec Entity Framework**  
 
 ---
 
 ## 🛠️ Technologies utilisées :
-- 🔹 **C# / ASP.NET Core**
-- 🎨 **HTML, CSS, Bootstrap**
-- 🗄️ **Entity Framework (Base de données SQL)**
-- 💻 **JavaScript (jQuery)**
+-  **C# / ASP.NET Core**
+-  **HTML, CSS, Bootstrap**
+-  **Entity Framework (Base de données SQL)**
+-  **JavaScript (jQuery)**
 
 ---
 
