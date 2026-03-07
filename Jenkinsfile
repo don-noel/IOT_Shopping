@@ -67,6 +67,16 @@ pipeline {
             }
         }
 
+        stage('Checkov Scan') {
+            steps {
+                echo 'Scan IaC / configuration avec Checkov...'
+                bat '''
+                checkov -d . > checkov-report.txt
+                type checkov-report.txt
+                '''
+            }
+        }
+
         stage('Docker Run') {
             steps {
                 echo 'Lancement du conteneur Docker...'
