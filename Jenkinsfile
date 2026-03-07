@@ -5,7 +5,7 @@ pipeline {
         PROJECT_NAME = 'IOT_Shopping'
         DOCKER_IMAGE = 'iot-shopping:latest'
         CONTAINER_NAME = 'iot-shopping-container'
-        APP_URL = 'http://localhost:8085'
+        APP_URL = 'http://localhost:8086'
         SONAR_PROJECT_KEY = 'IOT_Shopping'
     }
 
