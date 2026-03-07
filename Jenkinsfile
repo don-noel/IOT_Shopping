@@ -24,7 +24,7 @@ pipeline {
                 bat 'dotnet restore'
                 bat 'dotnet build --configuration Release --no-restore'
                 bat 'if exist publish rmdir /s /q publish'
-                bat 'dotnet publish IOT_Shopping.csproj -c Release -o publish --no-build'
+                bat 'dotnet publish IOT_Shopping.csproj -c Release -r linux-x64 --self-contained true -o publish /p:PublishSingleFile=true /p:PublishTrimmed=false'
             }
         }
 
