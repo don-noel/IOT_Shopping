@@ -12,8 +12,16 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                echo 'Récupération du code depuis Git...'
+                echo 'Recuperation du code depuis Git...'
                 checkout scm
+            }
+        }
+
+        stage('Build') {
+            steps {
+                echo 'Build du projet .NET...'
+                bat 'dotnet restore'
+                bat 'dotnet build --configuration Release --no-restore'
             }
         }
 
