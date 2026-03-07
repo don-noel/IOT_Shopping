@@ -42,8 +42,9 @@ pipeline {
         stage('Dependency Check (SCA)') {
             steps {
                 echo 'Scan des dependances avec OWASP Dependency-Check...'
-                dependencyCheck additionalArguments: '--scan . --format XML --format HTML --out .', odcInstallation: 'DependencyCheck'
-                dependencyCheckPublisher pattern: 'dependency-check-report.xml'
+                bat 'if not exist dependency-check-reports mkdir dependency-check-reports'
+                dependencyCheck additionalArguments: '--scan . --format XML --format HTML --out dependency-check-reports', odcInstallation: 'DependencyCheck'
+                dependencyCheckPublisher pattern: 'dependency-check-reports/dependency-check-report.xml'
             }
         }
     }
