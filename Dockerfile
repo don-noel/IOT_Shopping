@@ -1,7 +1,10 @@
-FROM mcr.microsoft.com/dotnet/aspnet:8.0
+FROM ubuntu:22.04
 WORKDIR /app
 
-COPY publish/ .
+ENV ASPNETCORE_URLS=http://+:8080
 EXPOSE 8080
 
-ENTRYPOINT ["dotnet", "IOT_Shopping.dll"]
+COPY publish/ .
+RUN chmod +x IOT_Shopping
+
+ENTRYPOINT ["./IOT_Shopping"]
