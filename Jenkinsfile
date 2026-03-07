@@ -47,5 +47,12 @@ pipeline {
                 dependencyCheckPublisher pattern: 'dependency-check-reports/dependency-check-report.xml'
             }
         }
+
+        stage('Docker Build') {
+            steps {
+                echo 'Construction de l image Docker...'
+                bat 'docker build -t %DOCKER_IMAGE% .'
+            }
+        }
     }
 }
