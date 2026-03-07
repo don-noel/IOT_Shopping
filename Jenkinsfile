@@ -51,7 +51,7 @@ pipeline {
         stage('Docker Build') {
             steps {
                 echo 'Construction de l image Docker...'
-                bat 'docker build -t %DOCKER_IMAGE% .'
+                bat 'set DOCKER_BUILDKIT=0 && docker build -t %DOCKER_IMAGE% .'
             }
         }
     }
