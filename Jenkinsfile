@@ -31,13 +31,12 @@ pipeline {
                 echo 'Scan SonarQube...'
                 withSonarQubeEnv('SonarQube') {
                     bat """
-                    dotnet sonarscanner begin /k:"%SONAR_PROJECT_KEY%" /n:"%PROJECT_NAME%"
+                    C:\\Users\\USER\\.dotnet\\tools\\dotnet-sonarscanner begin /k:"%SONAR_PROJECT_KEY%" /n:"%PROJECT_NAME%"
                     dotnet build --configuration Release
-                    dotnet sonarscanner end
+                    C:\\Users\\USER\\.dotnet\\tools\\dotnet-sonarscanner end
                     """
                 }
             }
         }
-
     }
 }
