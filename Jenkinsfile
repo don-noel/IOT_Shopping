@@ -84,5 +84,24 @@ pipeline {
                 bat 'docker run -d --name %CONTAINER_NAME% --add-host=host.docker.internal:host-gateway -p 8800:8080 %DOCKER_IMAGE%'
             }
         }
+
+        stage('ZAP Scan (DAST)') {
+            steps {
+                echo 'Scan dynamique de l application avec OWASP ZAP...'
+                bat '''
+                docker run --rm ^
+                  --add-host=host.docker.internal:host-gateway ^
+                  -v "%cd%:/zap/wrk" ^
+                  ghcr.io/zaproxy/zaproxy:stable ^
+                  zap-baseline.py -t http://host.docker.internal:8800 -r zap-report.html || exit /b 0
+
+                if exist zap-report.html (
+                    type zap-report.html
+                ) else (
+                    echo [WARNING] Le fichier zap-report.html n a pas ete genere.
+                )
+                '''
+            }
+        }
     }
 }
