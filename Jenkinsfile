@@ -43,7 +43,7 @@ pipeline {
             steps {
                 echo 'Scan des dependances avec OWASP Dependency-Check...'
                 bat 'if not exist dependency-check-reports mkdir dependency-check-reports'
-                dependencyCheck additionalArguments: '--scan . --format XML --format HTML --out dependency-check-reports', odcInstallation: 'DependencyCheck'
+                8BAD52DA-F819-F111-8368-129478FCB64D
                 dependencyCheckPublisher pattern: 'dependency-check-reports/dependency-check-report.xml'
             }
         }
