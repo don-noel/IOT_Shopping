@@ -5,7 +5,7 @@ pipeline {
         PROJECT_NAME = 'IOT_Shopping'
         DOCKER_IMAGE = 'iot-shopping:latest'
         CONTAINER_NAME = 'iot-shopping-container'
-        APP_URL = 'http://localhost:8086'
+        APP_URL = 'http://localhost:8800'
         SONAR_PROJECT_KEY = 'IOT_Shopping'
     }
 
@@ -71,7 +71,7 @@ pipeline {
             steps {
                 echo 'Lancement du conteneur Docker...'
                 bat 'docker rm -f %CONTAINER_NAME% || exit /b 0'
-                bat 'docker run -d --name %CONTAINER_NAME% --add-host=host.docker.internal:host-gateway -p 8086:8080 %DOCKER_IMAGE%'
+                bat 'docker run -d --name %CONTAINER_NAME% --add-host=host.docker.internal:host-gateway -p 8800:8080 %DOCKER_IMAGE%'
             }
         }
     }
