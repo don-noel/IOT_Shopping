@@ -51,7 +51,7 @@ pipeline {
         stage('Docker Build') {
             steps {
                 echo 'Construction de l image Docker...'
-                bat 'set DOCKER_BUILDKIT=false && docker build -t %DOCKER_IMAGE% .'
+                bat 'docker build --no-cache -t %DOCKER_IMAGE% .'
             }
         }
     }
