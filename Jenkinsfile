@@ -56,5 +56,13 @@ pipeline {
                 bat 'docker build --no-cache -t %DOCKER_IMAGE% .'
             }
         }
+
+        stage('Docker Run') {
+            steps {
+                echo 'Lancement du conteneur Docker...'
+                bat 'docker rm -f %CONTAINER_NAME% || exit /b 0'
+                bat 'docker run -d --name %CONTAINER_NAME% -p 8085:8080 %DOCKER_IMAGE%'
+            }
+        }
     }
 }
