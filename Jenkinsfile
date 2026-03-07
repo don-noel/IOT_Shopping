@@ -61,11 +61,6 @@ pipeline {
             steps {
                 echo 'Scan de l image Docker avec Trivy...'
                 bat '''
-                where trivy >nul 2>nul || (
-                    echo [ERROR] Trivy n est pas installe sur cette machine.
-                    exit /b 1
-                )
-
                 trivy image --severity HIGH,CRITICAL --exit-code 0 %DOCKER_IMAGE% > trivy-report.txt
                 type trivy-report.txt
                 '''
