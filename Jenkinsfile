@@ -6,6 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'iot-shopping:latest'
         CONTAINER_NAME = 'iot-shopping-container'
         APP_URL = 'http://localhost:8085'
+        SONAR_PROJECT_KEY = 'IOT_Shopping'
     }
 
     stages {
@@ -22,6 +23,19 @@ pipeline {
                 echo 'Build du projet .NET...'
                 bat 'dotnet restore'
                 bat 'dotnet build --configuration Release --no-restore'
+            }
+        }
+
+        stage('SonarQube Scan (SAST)') {
+            steps {
+                echo 'Scan SonarQube...'
+                withSonarQubeEnv('SonarQube') {
+                    bat """
+                    dotnet sonarscanner begin /k:"%SONAR_PROJECT_KEY%" /n:"%PROJECT_NAME%"
+                    dotnet build --configuration Release
+                    dotnet sonarscanner end
+                    """
+                }
             }
         }
 
