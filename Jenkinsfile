@@ -23,6 +23,8 @@ pipeline {
                 echo 'Build du projet .NET...'
                 bat 'dotnet restore'
                 bat 'dotnet build --configuration Release --no-restore'
+                bat 'if exist publish rmdir /s /q publish'
+                bat 'dotnet publish IOT_Shopping.csproj -c Release -o publish --no-build'
             }
         }
 
