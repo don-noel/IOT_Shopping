@@ -72,7 +72,7 @@ pipeline {
             steps {
                 echo 'Scan IaC / configuration avec Checkov...'
                 bat '''
-                C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\checkov.exe -d . > checkov-report.txt
+                C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\checkov.cmd -d . > checkov-report.txt
                 type checkov-report.txt
                 '''
             }
