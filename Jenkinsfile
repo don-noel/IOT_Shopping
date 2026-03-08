@@ -71,10 +71,11 @@ pipeline {
         stage('Checkov Scan') {
             steps {
                 echo 'Scan IaC / configuration avec Checkov...'
-                bat '''
-                C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\checkov.cmd -d . > checkov-report.txt
+                bat """
+                C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python313\\python.exe --version
+                C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python313\\python.exe -m checkov.main -d . > checkov-report.txt
                 type checkov-report.txt
-                '''
+                """
             }
         }
 
