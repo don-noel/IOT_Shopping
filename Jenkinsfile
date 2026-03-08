@@ -61,7 +61,7 @@ pipeline {
             steps {
                 echo 'Scan de l image Docker avec Trivy...'
                 bat '''
-                trivy image --severity HIGH,CRITICAL --exit-code 0 %DOCKER_IMAGE% > trivy-report.txt
+                D:\\DevSec\\tools\\trivy\\trivy.exe image --severity HIGH,CRITICAL --exit-code 0 %DOCKER_IMAGE% > trivy-report.txt
                 type trivy-report.txt
                 '''
             }
