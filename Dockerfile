@@ -1,3 +1,5 @@
+# Vulnérabilité 5 – Exécution du conteneur en root
+
 FROM ubuntu:22.04
 
 WORKDIR /app
