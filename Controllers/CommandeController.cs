@@ -1,4 +1,4 @@
-﻿// Importation des bibliothèques
+// Importation des bibliothèques
 using Microsoft.AspNetCore.Mvc;
 using IOT_Shopping.Models;
 using Microsoft.EntityFrameworkCore;
@@ -11,6 +11,10 @@ namespace IOT_Shopping.Controllers
     {
         // Déclaration de la base de données
         private readonly ContexteBaseDeDonnees _context;
+
+        //Vulnérabilité 1 — Secret codé en dur dans le code
+        private readonly string apiSecret = "sk_test_1234567890_super_secret_key";
+        //1ème vulnérabilité
 
         public CommandeController(ContexteBaseDeDonnees context)
         {
@@ -69,8 +73,17 @@ namespace IOT_Shopping.Controllers
             commande.Produit = produit;
             commande.DateCommande = DateTime.Now;
 
-            _context.Commandes.Add(commande);
-            _context.SaveChanges();
+            //Vulnérabilité 2 — Mauvaise gestion des exceptions
+            try
+            {
+                _context.Commandes.Add(commande);
+                _context.SaveChanges();
+            }
+            catch (Exception)
+            {
+                // erreur ignorée volontairement
+            }
+            //2ème vulnérabilité
 
             // Redirection vers la confirmation
             Console.WriteLine($"Commande enregistrée avec ID : {commande.Id}");
