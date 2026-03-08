@@ -45,11 +45,32 @@ using (var scope = app.Services.CreateScope())
     if (!context.Produits.Any())
     {
         context.Produits.AddRange(
-            new Produit { Nom = "Ordinateur Portable", Prix = 1200, Description = "Un PC performant" },
-            new Produit { Nom = "Smartphone", Prix = 800, Description = "Un téléphone moderne" },
-            new Produit { Nom = "Tablette", Prix = 500, Description = "Idéal pour le multimédia" }
+            new Produit
+            {
+                Nom = "Capteur IoT",
+                Prix = 44,
+                Description = "Capteur intelligent",
+                Image = "camera.jpg",
+                Categorie = "Capteurs IoT"
+            },
+            new Produit
+            {
+                Nom = "PIC16F877A",
+                Prix = 85,
+                Description = "Microcontroleur",
+                Image = "carte pic 16f877.jpg",
+                Categorie = "Cartes de commandes"
+            },
+            new Produit
+            {
+                Nom = "Montre connectee",
+                Prix = 30,
+                Description = "Smartwatch",
+                Image = "Montre connectee.png",
+                Categorie = "Objets connectes"
+            }
         );
-
+    
         context.SaveChanges();
     }
 }
