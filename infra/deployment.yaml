@@ -1,0 +1,22 @@
+# Vulnérabilité 7 — Configuration d’infrastructure trop permissive
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: iot-shopping
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: iot-shopping
+  template:
+    metadata:
+      labels:
+        app: iot-shopping
+    spec:
+      containers:
+        - name: iot-shopping
+          image: iot-shopping:latest
+          ports:
+            - containerPort: 8080
+          securityContext:
+            privileged: true
