@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using IOT_Shopping.Models;
 using System.IO;
@@ -23,9 +23,10 @@ namespace IOT_Shopping.Controllers
             return View(produits);
         }
 
+        //Vulnérabilité 3 — Contrôle d’accès manquant sur une action sensible
         public IActionResult Create()
         {
-            // ✅ Récupérer les catégories distinctes existantes dans la base de données
+            // Récupérer les catégories distinctes existantes dans la base de données
             ViewBag.Categories = _context.Produits
                                          .Select(p => p.Categorie)
                                          .Distinct()
@@ -58,7 +59,7 @@ namespace IOT_Shopping.Controllers
                 return RedirectToAction("Index");
             }
 
-            // ✅ S'assurer que la liste des catégories est renvoyée en cas d'erreur
+            // S'assurer que la liste des catégories est renvoyée en cas d'erreur
             ViewBag.Categories = _context.Produits
                                          .Select(p => p.Categorie)
                                          .Distinct()
@@ -72,7 +73,7 @@ namespace IOT_Shopping.Controllers
             var produit = _context.Produits.Find(id);
             if (produit == null) return NotFound();
 
-            // ✅ Charger les catégories pour la modification
+            // Charger les catégories pour la modification
             ViewBag.Categories = _context.Produits
                                          .Select(p => p.Categorie)
                                          .Distinct()
@@ -105,7 +106,7 @@ namespace IOT_Shopping.Controllers
                 return RedirectToAction("Index");
             }
 
-            // ✅ Recharger les catégories en cas d'erreur de validation
+            // Recharger les catégories en cas d'erreur de validation
             ViewBag.Categories = _context.Produits
                                          .Select(p => p.Categorie)
                                          .Distinct()
@@ -114,6 +115,7 @@ namespace IOT_Shopping.Controllers
             return View(produit);
         }
 
+        //Vulnérabilité 3 — Contrôle d’accès manquant sur une action sensible
         public IActionResult Delete(int id)
         {
             var produit = _context.Produits.Find(id);
